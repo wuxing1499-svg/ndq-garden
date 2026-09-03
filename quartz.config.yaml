@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./runtime/quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: NDQ 知识花园
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics: null
-  locale: en-US
-  baseUrl: sosiristseng.github.io/template-quartz
+  locale: zh-CN
+  baseUrl: wuxing1499-svg.github.io/ndq-garden
   ignorePatterns:
     - private
     - templates
@@ -15,30 +15,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: Fira Code
+      header: Noto Sans SC
+      body: Noto Sans SC
+      code: JetBrains Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#ffffff"
+        lightgray: "#eef0f4"
+        gray: "#d7dae0"
+        darkgray: "#3a3f47"
+        dark: "#1f2328"
+        secondary: "#4f6ef7"
+        tertiary: "#6b84e8"
+        highlight: rgba(79, 110, 247, 0.14)
+        textHighlight: "#c9d4ff"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#0f1115"
+        lightgray: "#1a1e26"
+        gray: "#2a2f3a"
+        darkgray: "#c8cdd6"
+        dark: "#e6e8eb"
+        secondary: "#5b8cff"
+        tertiary: "#6b84e8"
+        highlight: rgba(79, 110, 247, 0.14)
+        textHighlight: "#33417a"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -203,16 +203,16 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/sosiristseng
+        GitHub: https://github.com/wuxing1499-svg
     layout:
       position: footer
       priority: 50
   - source: "@quartz-community/recent-notes"
     enabled: true
     options:
-      title: "Recent notes"
-      limit: 3
-      showTags: true
+      title: "最近更新"
+      limit: 5
+      showTags: false
       hideTagPages: false
       hideFolderPages: false
       linkToMore: false

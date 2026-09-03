@@ -1,7 +1,27 @@
 ---
-title: Welcome to Quartz 5
+title: NDQ 知识花园
+description: 测试开发工程师的个人知识库 —— 项目、技能、学习资料与笔记
 ---
 
-Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers publish personal notes, wikis, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
+# NDQ 知识花园
 
-See the [official documentation](https://quartz.jzhao.xyz/) for more details.
+这里是个人知识库的数字花园。内容按四大类组织：**项目**、**技能**、**学习资料**、**笔记**。双链、反链与全文搜索均可使用，右上角可切换深/浅色主题。
+
+## 分区入口
+
+| 分区 | 内容 | 入口 |
+|---|---|---|
+| 01 · 项目 | 有明确交付物的独立工作（BridgeLink、arkui-doc-test、直播数据分析、OpenCode WebUI） | [[01_Projects]] |
+| 02 · 技能 | 可复用的能力包：测试工程 / 鸿蒙生态 / AI 工作流 | [[02_Skills/技能索引|技能索引]] |
+| 03 · 领域笔记 | 长期关注的领域与思考（陆续建设中） | — |
+| 04 · 学习资料 | Java、MySQL、Linux、软件测试、C++ 与 Qt 的主题资料 | [[04_Resources/学习进度|学习进度]] |
+
+## 快速导航
+
+- [[02_Skills/技能索引|技能总索引]]
+- [[04_Resources/学习进度|学习进度总表]]
+- [[01_Projects/示例项目-AI个人知识库搭建|示例项目：AI 个人知识库搭建]]
+
+---
+
+> 站点由 Obsidian 写作 → GitHub Actions 自动构建（Quartz v5）→ GitHub Pages 托管。本页为仓库内手工维护的首页，笔记内容来自白名单自动同步。
